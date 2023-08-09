@@ -4,7 +4,11 @@ module.exports = {
   theme: {
     extend: {
       minHeight:{
-        '65':"75vh"
+        '65':"75vh",
+        '45':"45vh",
+        '50':"45vh",
+        "35":"35vh",
+        "10":"10vh",
       },
       height:{
         '65':'65vh',
@@ -12,7 +16,7 @@ module.exports = {
         "60":"70vh",
         "90":"88vh",
         "55":"55vh",
-        "341":"45vh"
+        "341":"45vh",
       },
       width:{
         '98':'98%',
