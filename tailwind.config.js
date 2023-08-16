@@ -9,6 +9,7 @@ module.exports = {
         '50':"45vh",
         "35":"35vh",
         "10":"10vh",
+        "90vh":"90vh"
       },
       height:{
         '65':'65vh',
@@ -35,7 +36,8 @@ module.exports = {
       },
       backgroundImage:{
         "section1":"url('../public/section1g.png')",
-        "section2":"url('../public/section2.png')"
+        "section2":"url('../public/section2.png')",
+        "contact":"url('../public/contact.png')"
       },
       fontFamily:{
         'Inter':['Inter','sans-serif']

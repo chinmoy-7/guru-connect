@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 function Section4() {
   return (
     <div className="min-h-35 flex flex-col justify-center items-center ">
@@ -59,9 +59,10 @@ function Section4() {
             </div>
           </div>
           <div className="w-full min-h-10 flex justify-center items-center">
-            <button className="bg-newpurple w-4/6  lg:w-1/5 rounded-2xl  h-10 text-white font-2xl font-Inter">
+            <Link to="/contact" className="bg-newpurple w-4/6  lg:w-1/5 rounded-2xl  h-10 text-white font-2xl font-Inter flex justify-center"><button >
               Start Mentoring Now
             </button>
+            </Link>
           </div>
         </div>
       </div>
